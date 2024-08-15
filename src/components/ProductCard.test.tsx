@@ -13,9 +13,9 @@ describe('ProductCard', () => {
   it('renders product information correctly', () => {
     render(<ProductCard {...product} />);
 
-    expect(screen.getByText(product.name)).toBeInTheDocument();
-    expect(screen.getByText(product.description)).toBeInTheDocument();
-    expect(screen.getByText(`$${product.price.toFixed(2)}`)).toBeInTheDocument();
-    expect(screen.getByAltText(product.name)).toHaveAttribute('src', product.image);
+    expect(screen.getByText(product.name));
+    expect(screen.getByText(product.description));
+    expect(screen.getByText(`$${product.price.toFixed(2)}`));
+    expect(screen.getByAltText(product.name)).('src', product.image);
   });
 });
