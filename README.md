@@ -1,4 +1,4 @@
-# Catálogo de Produtos
+# Catálogo de Tenis 
 
 Uma aplicação web que exibe uma lista de produtos em uma única página, com funcionalidades básicas de front-end e back-end. Este projeto foi desenvolvido para demonstrar o entendimento de conceitos básicos de desenvolvimento web e organização de código.
 
