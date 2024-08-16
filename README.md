@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Catálogo de Produtos
 
-## Getting Started
+Uma aplicação web que exibe uma lista de produtos em uma única página, com funcionalidades básicas de front-end e back-end. Este projeto foi desenvolvido para demonstrar o entendimento de conceitos básicos de desenvolvimento web e organização de código.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
+- Listagem de produtos com imagem, descrição e preço.
+- Filtragem de produtos por categoria.
+- Pesquisa por nome do produto.
+- Interface responsiva e estilizada com TailwindCSS.
+- API simples em Node.js para servir os dados dos produtos.
+
+## Tecnologias Utilizadas
+
+- **Next.js**: Framework React para renderização híbrida estática e server-side.
+- **Typescript**: Superconjunto de JavaScript que adiciona tipagem estática ao código.
+- **TailwindCSS**: Framework CSS para estilização rápida e eficiente.
+- **Node.js**: Ambiente de execução para construir a API do back-end.
+- **Jest**: Framework de testes para JavaScript, utilizado para testes unitários.
+
+## Pré-requisitos
+
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
+
+- [Node.js](https://nodejs.org/en/) (v14.x ou superior)
+- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
+
+## Instalação
+
+Siga os passos abaixo para configurar o ambiente de desenvolvimento:
+
+ **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+Navegue até o diretório do projeto:
+
+
+cd nome-do-repositorio
+Instale as dependências:
+
+Usando npm:
+
+
+npm install
+Ou usando Yarn:
+
+yarn install
+Execução
+Para rodar o projeto localmente, siga os passos abaixo:
+
+Inicie o servidor de desenvolvimento:
+
+Usando npm:
+
+
 npm run dev
-# or
+Ou usando Yarn:
+
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Acesse o projeto:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra o navegador e acesse http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Testes
+O projeto inclui testes unitários para garantir a funcionalidade das principais partes do código.
 
-To learn more about Next.js, take a look at the following resources:
+Rodar os testes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Usando npm:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+npm run test
+Ou usando Yarn:
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+yarn test
+Os testes estão configurados para rodar automaticamente no Jest.
